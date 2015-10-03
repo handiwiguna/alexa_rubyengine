@@ -7,337 +7,336 @@ class AuthorIntent
 
   BIBLE = {
     "genesis" => {
-      "testament" => "OLD",
-      "purpose" => "Describes the creation; gives the history of the old world, and of the steps taken by God toward the formation of theocracy.",
-      "author" => "Moses"
+      "testament" => "old",
+      "purpose" => "describes the creation; gives the history of the old world, and of the steps taken by god toward the formation of theocracy.",
+      "author" => "moses"
     },
     "exodus" => {
-      "testament" => "OLD",
-      "purpose" => "The history of Israel's departure from Egypt; the giving of the law; the tabernacle.",
-      "author" => "Moses"
-    }#,
+      "testament" => "old",
+      "purpose" => "the history of israel's departure from egypt; the giving of the law; the tabernacle.",
+      "author" => "moses"
+    },
+    "leviticus" => {
+      "testament" => "old",
+      "purpose" => "the ceremonial law.",
+      "author" => "moses"
+    },
+    "numbers" => {
+      "testament" => "old",
+      "purpose" => "the census of the people; the story of the wanderings in the wilderness.",
+      "author" => "moses"
+    },
+    "deuteronomy" => {
+      "testament" => "old",
+      "purpose" => "the law rehearsed; the death of moses.",
+      "author" => "moses"
+    },
+    "joshua" => {
+      "testament" => "old",
+      "purpose" => "the story of the conquest and partition of canaan.",
+      "author" => "joshua"
+    },
+    "judges" => {
+      "testament" => "old",
+      "purpose" => "the history of the nation from joshua to samson.",
+      "author" => "samuel, nathan and gad"
+    },
+    "ruth" => {
+      "testament" => "old",
+      "purpose" => "the story of the ancestors of the royal family of judah.",
+      "author" => "samuel, nathan and gad"
+    },
+    "1 samuel" => {
+      "testament" => "old",
+      "purpose" => "the story of the nation during the judgeship of samuel and the reign of saul.",
+      "author" => "samuel, nathan and gad"
+    },
+    "2 samuel" => {
+      "testament" => "old",
+      "purpose" => "story of the reign of david.",
+      "author" => "samuel, nathan and gad"
+    },
+    "1 kings" => {
+      "testament" => "old",
+      "purpose" => "the books of kings form only one book in the hebrew mss. they contain the history of the nation from david's death and solomon's accession to the destruction of the kingdom of judah and the desolation of jerusalem, with a supplemental notice of the liberation of jehoiachin from his prison at babylon, twenty-six years later; they comprehend the whole time of the israelitish monarchy, exclusive of the reigns of saul and david.",
+      "author" => "jeremiah"
+    },
+    "2 kings" => {
+      "testament" => "old",
+      "purpose" => "the books of kings form only one book in the hebrew mss. they contain the history of the nation from david's death and solomon's accession to the destruction of the kingdom of judah and the desolation of jerusalem, with a supplemental notice of the liberation of jehoiachin from his prison at babylon, twenty-six years later; they comprehend the whole time of the israelitish monarchy, exclusive of the reigns of saul and david.",
+      "author" => "jeremiah"
+    },
+    "1 chronicles" => {
+      "testament" => "old",
+      "purpose" => "are so called as being the record made by the appointed historiographers of the kingdoms of judah and israel; they are the official histories of those kingdoms.",
+      "author" => "ezra"
+    },
+    "2 chronicles" => {
+      "testament" => "old",
+      "purpose" => "are so called as being the record made by the appointed historiographers of the kingdoms of judah and israel; they are the official histories of those kingdoms.",
+      "author" => "ezra"
+    },
+    "ezra" => {
+      "testament" => "old",
+      "purpose" => "the story of the return of the jews from the babylonish captivity, and of the rebuilding of the temple.",
+      "author" => "ezra"
+    },
+    "nehemiah" => {
+      "testament" => "old",
+      "purpose" => "a further account of the rebuilding of the temple and city, and of the obstacles encountered and overcome.",
+      "author" => "ezra"
+    },
+    "esther" => {
+      "testament" => "old",
+      "purpose" => "the story of a jewess who becomes queen of persia and saves the jewish people from destruction.",
+      "author" => "mordecai"
+    },
+    "job" => {
+      "testament" => "old",
+      "purpose" => "the story of the trials and patience of a holy man of edom.",
+      "author" => "the book of job does not specifically name its author. the most likely candidates are job, elihu, moses and solomon."
+    },
+    "psalms" => {
+      "testament" => "old",
+      "purpose" => "a collection of sacred poems intended for use in the worship of jehovah. chiefly the productions of david.",
+      "author" => "several different authors, approximately half by david around 1000 b.c. the earliest psalm is from moses around 1400 b.c. and the latest around 400 b.c."
+    },
+    "proverbs" => {
+      "testament" => "old",
+      "purpose" => "the wise sayings of solomon.",
+      "author" => "solomon"
+    },
+    "ecclesiastes" => {
+      "testament" => "old",
+      "purpose" => "a poem respecting the vanity of earthly things.",
+      "author" => "solomon"
+    },
+    "song of solomon" => {
+      "testament" => "old",
+      "purpose" => "an allegory relating to the church.",
+      "author" => "solomon"
+    },
+    "isaiah" => {
+      "testament" => "old",
+      "purpose" => "prophecies respecting christ and his kingdom.",
+      "author" => "isaiah"
+    },
+    "jeremiah" => {
+      "testament" => "old",
+      "purpose" => "prophecies announcing the captivity of judah, its sufferings, and the final overthrow of its enemies.",
+      "author" => "jeremiah"
+    },
+    "lamentations" => {
+      "testament" => "old",
+      "purpose" => "the utterance of jeremiah's sorrow upon the capture of jerusalem and the destruction of the temple.",
+      "author" => "jeremiah"
+    },
+    "ezekiel" => {
+      "testament" => "old",
+      "purpose" => "messages of warning and comfort to the jews in their captivity.",
+      "author" => "ezekiel"
+    },
+    "daniel" => {
+      "testament" => "old",
+      "purpose" => "a narrative of some of the occurrences of the captivity, and a series of prophecies concerning christ.",
+      "author" => "daniel - 550 b.c."
+    },
+    "hosea" => {
+      "testament" => "old",
+      "purpose" => "prophecies relating to christ and the latter days.",
+      "author" => "hosea"
+    },
+    "joel" => {
+      "testament" => "old",
+      "purpose" => "prediction of woes upon judah, and of the favor with which god will receive the penitent people.",
+      "author" => "joel"
+    },
+    "amos" => {
+      "testament" => "old",
+      "purpose" => "prediction that israel and other neighboring nations will be punished by conquerors from the north, and of the fulfillment of the messiah's kingdom",
+      "author" => "amos"
+    },
+    "obadiah" => {
+      "testament" => "old",
+      "purpose" => "prediction of the desolation of edom.",
+      "author" => "obadiah"
+    },
+    "jonah" => {
+      "testament" => "old",
+      "purpose" => "prophecies relating to nineveh.",
+      "author" => "jonah"
+    },
+    "micah" => {
+      "testament" => "old",
+      "purpose" => "predictions relating to the invasions of shalmaneser and sennacherib, the babylonish captivity, the establishment of a theocratic kingdom in jerusalem, and the birth of the messiah in bethlehem.",
+      "author" => "micah"
+    },
+    "nahum" => {
+      "testament" => "old",
+      "purpose" => "prediction of the downfall of assyria.",
+      "author" => "nahum"
+    },
+    "habakkuk" => {
+      "testament" => "old",
+      "purpose" => "a prediction of the doom of the chaldeans.",
+      "author" => "habakkuk"
+    },
+    "zephaniah" => {
+      "testament" => "old",
+      "purpose" => "prophecies relating to the rebuilding of the temple and the messiah.",
+      "author" => "zephaniah"
+    },
+    "haggai" => {
+      "testament" => "old",
+      "purpose" => "prophecies concerning the rebuilding of the temple.",
+      "author" => "haggai"
+    },
+    "zechariah" => {
+      "testament" => "old",
+      "purpose" => "prophecies relating to the rebuilding of the temple and the messiah.",
+      "author" => "zechariah"
+    },
+    "malachi" => {
+      "testament" => "old",
+      "purpose" => "prophecies relating to the calling of the gentiles and the coming of christ.",
+      "author" => "malachi"
+    },
+    "matthew" => {
+      "testament" => "new",
+      "purpose" => "a brief history of the life of christ.",
+      "author" => "matthew"
+    },
+    "mark" => {
+      "testament" => "new",
+      "purpose" => "a brief history of the life of christ, supplying some incidents omitted by st. matthew.",
+      "author" => "john mark"
+    },
+    "luke" => {
+      "testament" => "new",
+      "purpose" => "the history of the life of christ, with especial reference to his most important acts and discourses.",
+      "author" => "luke"
+    },
+    "john" => {
+      "testament" => "new",
+      "purpose" => "the life of christ, giving important discourses not related by the other evangelists.",
+      "author" => "john"
+    },
+    "acts" => {
+      "testament" => "new",
+      "purpose" => "the history of the labors of the apostles and of the foundation of the christian church.",
+      "author" => "luke"
+    },
+    "romans" => {
+      "testament" => "new",
+      "purpose" => "a treatise by st. paul on the doctrine of justification by christ.",
+      "author" => "paul"
+    },
+    "1 corinthians" => {
+      "testament" => "new",
+      "purpose" => "a letter from st. paul to the corinthians, correcting errors into which they had fallen.",
+      "author" => "paul"
+    },
+    "2 corinthians" => {
+      "testament" => "new",
+      "purpose" => "st. paul confirms his disciples in their faith, and vindicates his own character.",
+      "author" => "paul"
+    },
+    "galatians" => {
+      "testament" => "new",
+      "purpose" => "st. paul maintains that we are justified by faith, and not by rites.",
+      "author" => "paul"
+    },
+    "ephesians" => {
+      "testament" => "new",
+      "purpose" => "a treatise by st. paul on the power of divine grace.",
+      "author" => "paul"
+    },
+    "philippians" => {
+      "testament" => "new",
+      "purpose" => "st. paul sets forth the beauty of christian kindness.",
+      "author" => "paul"
+    },
+    "colossians" => {
+      "testament" => "new",
+      "purpose" => "st. paul warns his disciples against errors, and exhorts to certain duties.",
+      "author" => "paul"
+    },
+    "1 thessalonians" => {
+      "testament" => "new",
+      "purpose" => "st. paul exhorts his disciples to continue in the faith and in holy conversation.",
+      "author" => "paul"
+    },
+    "2 thessalonians" => {
+      "testament" => "new",
+      "purpose" => "st. paul corrects an error concerning the speedy coming of christ the second time.",
+      "author" => "paul"
+    },
+    "1 timothy" => {
+      "testament" => "new",
+      "purpose" => "st. paul instructs timothy in the duty of a pastor, and encourages him in the work of the ministry.",
+      "author" => "paul"
+    },
+    "2 timothy" => {
+      "testament" => "new",
+      "purpose" => "st. paul instructs timothy in the duty of a pastor, and encourages him in the work of the ministry.",
+      "author" => "paul"
+    },
+    "titus" => {
+      "testament" => "new",
+      "purpose" => "epistle to titus. st. paul encourages titus in the performance of his ministerial duties.",
+      "author" => "paul"
+    },
+    "philemon" => {
+      "testament" => "new",
+      "purpose" => "an appeal to a converted master to receive a converted escaped slave with kindness.",
+      "author" => "paul"
+    },
+    "hebrews" => {
+      "testament" => "new",
+      "purpose" => "st. paul maintains that christ is the substance of the ceremonial law.",
+      "author" => "author unknown"
+    },
+    "james" => {
+      "testament" => "new",
+      "purpose" => "a treatise on the efficacy of faith united with good works.",
+      "author" => "james"
+    },
+    "1 peter" => {
+      "testament" => "new",
+      "purpose" => "exhortations to a christian life, with various warnings and predictions.",
+      "author" => "peter"
+    },
+    "2 peter" => {
+      "testament" => "new",
+      "purpose" => "exhortations to a christian life, with various warnings and predictions.",
+      "author" => "peter"
+    },
+    "1 john" => {
+      "testament" => "new",
+      "purpose" => "respecting the person of our lord, and an exhortation to christian love and conduct.",
+      "author" => "john"
+    },
+    "2 john" => {
+      "testament" => "new",
+      "purpose" => "st. john warns a converted lady against false teachers.",
+      "author" => "john"
+    },
+    "3 john" => {
+      "testament" => "new",
+      "purpose" => "a letter to gaius, praising him for his hospitality.",
+      "author" => "john"
+    },
+    "jude" => {
+      "testament" => "new",
+      "purpose" => "warnings against deceivers",
+      "author" => "jude"
+    },
+    "revelation" => {
+      "testament" => "new",
+      "purpose" => "the future of the church foretold.",
+      "author" => "john"
+    }
   }
-    # "Leviticus": {
-    #   "testament": "OLD",
-    #   "purpose": "The ceremonial law.",
-    #   "author": "Moses"
-    # },
-    # "Numbers": {
-    #   "testament": "OLD",
-    #   "purpose": "The census of the people; the story of the wanderings in the wilderness.",
-    #   "author": "Moses"
-    # },
-    # "Deuteronomy": {
-    #   "testament": "OLD",
-    #   "purpose": "The law rehearsed; the death of Moses.",
-    #   "author": "Moses"
-    # },
-    # "Joshua": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of the conquest and partition of Canaan.",
-    #   "author": "Joshua"
-    # },
-    # "Judges": {
-    #   "testament": "OLD",
-    #   "purpose": "The history of the nation from Joshua to Samson.",
-    #   "author": "Samuel, Nathan and Gad"
-    # },
-    # "Ruth": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of the ancestors of the royal family of Judah.",
-    #   "author": "Samuel, Nathan and Gad"
-    # },
-    # "1 Samuel": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of the nation during the judgeship of Samuel and the reign of Saul.",
-    #   "author": "Samuel, Nathan and Gad"
-    # },
-    # "2 Samuel": {
-    #   "testament": "OLD",
-    #   "purpose": "Story of the reign of David.",
-    #   "author": "Samuel, Nathan and Gad"
-    # },
-    # "1 Kings": {
-    #   "testament": "OLD",
-    #   "purpose": "The books of Kings form only one book in the Hebrew MSS. They contain the history of the nation from David's death and Solomon's accession to the destruction of the kingdom of Judah and the desolation of Jerusalem, with a supplemental notice of the liberation of Jehoiachin from his prison at Babylon, twenty-six years later; they comprehend the whole time of the Israelitish monarchy, exclusive of the reigns of Saul and David.",
-    #   "author": "Jeremiah"
-    # },
-    # "2 Kings": {
-    #   "testament": "OLD",
-    #   "purpose": "The books of Kings form only one book in the Hebrew MSS. They contain the history of the nation from David's death and Solomon's accession to the destruction of the kingdom of Judah and the desolation of Jerusalem, with a supplemental notice of the liberation of Jehoiachin from his prison at Babylon, twenty-six years later; they comprehend the whole time of the Israelitish monarchy, exclusive of the reigns of Saul and David.",
-    #   "author": "Jeremiah"
-    # },
-    # "1 Chronicles": {
-    #   "testament": "OLD",
-    #   "purpose": "are so called as being the record made by the appointed historiographers of the kingdoms of Judah and Israel; they are the official histories of those kingdoms.",
-    #   "author": "Ezra"
-    # },
-    # "2 Chronicles": {
-    #   "testament": "OLD",
-    #   "purpose": "are so called as being the record made by the appointed historiographers of the kingdoms of Judah and Israel; they are the official histories of those kingdoms.",
-    #   "author": "Ezra"
-    # },
-    # "Ezra": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of the return of the Jews from the Babylonish captivity, and of the rebuilding of the temple.",
-    #   "author": "Ezra"
-    # },
-    # "Nehemiah": {
-    #   "testament": "OLD",
-    #   "purpose": "A further account of the rebuilding of the temple and city, and of the obstacles encountered and overcome.",
-    #   "author": "Ezra"
-    # },
-    # "Esther": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of a Jewess who becomes queen of Persia and saves the Jewish people from destruction.",
-    #   "author": "Mordecai"
-    # },
-    # "Job": {
-    #   "testament": "OLD",
-    #   "purpose": "The story of the trials and patience of a holy man of Edom.",
-    #   "author": "The Book of Job does not specifically name its author. The most likely candidates are Job, Elihu, Moses and Solomon."
-    # },
-    # "Psalms": {
-    #   "testament": "OLD",
-    #   "purpose": "A collection of sacred poems intended for use in the worship of Jehovah. Chiefly the productions of David.",
-    #   "author": "several different authors, approximately half by David around 1000 B.C. the earliest psalm is from Moses around 1400 B.C. and the latest around 400 B.C."
-    # },
-    # "Proverbs": {
-    #   "testament": "OLD",
-    #   "purpose": "The wise sayings of Solomon.",
-    #   "author": "Solomon"
-    # },
-    # "Ecclesiastes": {
-    #   "testament": "OLD",
-    #   "purpose": "A poem respecting the vanity of earthly things.",
-    #   "author": "Solomon"
-    # },
-    # "Song of Solomon": {
-    #   "testament": "OLD",
-    #   "purpose": "An allegory relating to the church.",
-    #   "author": "Solomon"
-    # },
-    # "Isaiah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies respecting Christ and his kingdom.",
-    #   "author": "Isaiah"
-    # },
-    # "Jeremiah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies announcing the captivity of Judah, its sufferings, and the final overthrow of its enemies.",
-    #   "author": "Jeremiah"
-    # },
-    # "Lamentations": {
-    #   "testament": "OLD",
-    #   "purpose": "The utterance of Jeremiah's sorrow upon the capture of Jerusalem and the destruction of the temple.",
-    #   "author": "Jeremiah"
-    # },
-    # "Ezekiel": {
-    #   "testament": "OLD",
-    #   "purpose": "Messages of warning and comfort to the Jews in their captivity.",
-    #   "author": "Ezekiel"
-    # },
-    # "Daniel": {
-    #   "testament": "OLD",
-    #   "purpose": "A narrative of some of the occurrences of the captivity, and a series of prophecies concerning Christ.",
-    #   "author": "Daniel - 550 B.C."
-    # },
-    # "Hosea": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies relating to Christ and the latter days.",
-    #   "author": "Hosea"
-    # },
-    # "Joel": {
-    #   "testament": "OLD",
-    #   "purpose": "Prediction of woes upon Judah, and of the favor with which God will receive the penitent people.",
-    #   "author": "Joel"
-    # },
-    # "Amos": {
-    #   "testament": "OLD",
-    #   "purpose": "Prediction that Israel and other neighboring nations will be punished by conquerors from the north, and of the fulfillment of the Messiah's kingdom",
-    #   "author": "Amos"
-    # },
-    # "Obadiah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prediction of the desolation of Edom.",
-    #   "author": "Obadiah"
-    # },
-    # "Jonah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies relating to Nineveh.",
-    #   "author": "Jonah"
-    # },
-    # "Micah": {
-    #   "testament": "OLD",
-    #   "purpose": "Predictions relating to the invasions of Shalmaneser and Sennacherib, the Babylonish captivity, the establishment of a theocratic kingdom in Jerusalem, and the birth of the Messiah in Bethlehem.",
-    #   "author": "Micah"
-    # },
-    # "Nahum": {
-    #   "testament": "OLD",
-    #   "purpose": "Prediction of the downfall of Assyria.",
-    #   "author": "Nahum"
-    # },
-    # "Habakkuk": {
-    #   "testament": "OLD",
-    #   "purpose": "A prediction of the doom of the Chaldeans.",
-    #   "author": "Habakkuk"
-    # },
-    # "Zephaniah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies relating to the rebuilding of the temple and the Messiah.",
-    #   "author": "Zephaniah"
-    # },
-    # "Haggai": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies concerning the rebuilding of the temple.",
-    #   "author": "Haggai"
-    # },
-    # "Zechariah": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies relating to the rebuilding of the temple and the Messiah.",
-    #   "author": "Zechariah"
-    # },
-    # "Malachi": {
-    #   "testament": "OLD",
-    #   "purpose": "Prophecies relating to the calling of the Gentiles and the coming of Christ.",
-    #   "author": "Malachi"
-    # },
-    # "Matthew": {
-    #   "testament": "NEW",
-    #   "purpose": "A brief history of the life of Christ.",
-    #   "author": "Matthew"
-    # },
-    # "Mark": {
-    #   "testament": "NEW",
-    #   "purpose": "A brief history of the life of Christ, supplying some incidents omitted by St. Matthew.",
-    #   "author": "John Mark"
-    # },
-    # "Luke": {
-    #   "testament": "NEW",
-    #   "purpose": "The history of the life of Christ, with especial reference to his most important acts and discourses.",
-    #   "author": "Luke"
-    # },
-    # "John": {
-    #   "testament": "NEW",
-    #   "purpose": "The life of Christ, giving important discourses not related by the other evangelists.",
-    #   "author": "John"
-    # },
-    # "Acts": {
-    #   "testament": "NEW",
-    #   "purpose": "The history of the labors of the apostles and of the foundation of the Christian Church.",
-    #   "author": "Luke"
-    # },
-    # "Romans": {
-    #   "testament": "NEW",
-    #   "purpose": "A treatise by St. Paul on the doctrine of justification by Christ.",
-    #   "author": "Paul"
-    # },
-    # "1 Corinthians": {
-    #   "testament": "NEW",
-    #   "purpose": "A letter from St. Paul to the Corinthians, correcting errors into which they had fallen.",
-    #   "author": "Paul"
-    # },
-    # "2 Corinthians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul confirms his disciples in their faith, and vindicates his own character.",
-    #   "author": "Paul"
-    # },
-    # "Galatians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul maintains that we are justified by faith, and not by rites.",
-    #   "author": "Paul"
-    # },
-    # "Ephesians": {
-    #   "testament": "NEW",
-    #   "purpose": "A treatise by St. Paul on the power of divine grace.",
-    #   "author": "Paul"
-    # },
-    # "Philippians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul sets forth the beauty of Christian kindness.",
-    #   "author": "Paul"
-    # },
-    # "Colossians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul warns his disciples against errors, and exhorts to certain duties.",
-    #   "author": "Paul"
-    # },
-    # "1 Thessalonians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul exhorts his disciples to continue in the faith and in holy conversation.",
-    #   "author": "Paul"
-    # },
-    # "2 Thessalonians": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul corrects an error concerning the speedy coming of Christ the second time.",
-    #   "author": "Paul"
-    # },
-    # "1 Timothy": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul instructs Timothy in the duty of a pastor, and encourages him in the work of the ministry.",
-    #   "author": "Paul"
-    # },
-    # "2 Timothy": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul instructs Timothy in the duty of a pastor, and encourages him in the work of the ministry.",
-    #   "author": "Paul"
-    # },
-    # "Titus": {
-    #   "testament": "NEW",
-    #   "purpose": "Epistle to Titus. St. Paul encourages Titus in the performance of his ministerial duties.",
-    #   "author": "Paul"
-    # },
-    # "Philemon": {
-    #   "testament": "NEW",
-    #   "purpose": "An appeal to a converted master to receive a converted escaped slave with kindness.",
-    #   "author": "Paul"
-    # },
-    # "Hebrews": {
-    #   "testament": "NEW",
-    #   "purpose": "St. Paul maintains that Christ is the substance of the ceremonial law.",
-    #   "author": "author unknown"
-    # },
-    # "James": {
-    #   "testament": "NEW",
-    #   "purpose": "A treatise on the efficacy of faith united with good works.",
-    #   "author": "James"
-    # },
-    # "1 Peter": {
-    #   "testament": "NEW",
-    #   "purpose": "Exhortations to a Christian life, with various warnings and predictions.",
-    #   "author": "Peter"
-    # },
-    # "2 Peter": {
-    #   "testament": "NEW",
-    #   "purpose": "Exhortations to a Christian life, with various warnings and predictions.",
-    #   "author": "Peter"
-    # },
-    # "1 John": {
-    #   "testament": "NEW",
-    #   "purpose": "Respecting the person of our Lord, and an exhortation to Christian love and conduct.",
-    #   "author": "John"
-    # },
-    # "2 John": {
-    #   "testament": "NEW",
-    #   "purpose": "St. John warns a converted lady against false teachers.",
-    #   "author": "John"
-    # },
-    # "3 John": {
-    #   "testament": "NEW",
-    #   "purpose": "A letter to Gaius, praising him for his hospitality.",
-    #   "author": "John"
-    # },
-    # "Jude": {
-    #   "testament": "NEW",
-    #   "purpose": "Warnings against deceivers",
-    #   "author": "Jude"
-    # },
-    # "Revelation": {
-    #   "testament": "NEW",
-    #   "purpose": "The future of the Church foretold.",
-    #   "author": "John"
-    # }
-  # }
 
   def initialize
     @response = AlexaRubykit::Response.new
