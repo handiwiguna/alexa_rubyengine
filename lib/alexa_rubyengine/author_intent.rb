@@ -6,15 +6,15 @@ class AuthorIntent
   attr_reader :response
 
   BIBLE = {
-    "Genesis": {
-      "testament": "OLD",
-      "purpose": "Describes the creation; gives the history of the old world, and of the steps taken by God toward the formation of theocracy.",
-      "author": "Moses"
+    "Genesis" => {
+      "testament" => "OLD",
+      "purpose" => "Describes the creation; gives the history of the old world, and of the steps taken by God toward the formation of theocracy.",
+      "author" => "Moses"
     },
-    "Exodus": {
-      "testament": "OLD",
-      "purpose": "The history of Israel's departure from Egypt; the giving of the law; the tabernacle.",
-      "author": "Moses"
+    "Exodus" => {
+      "testament" => "OLD",
+      "purpose" => "The history of Israel's departure from Egypt; the giving of the law; the tabernacle.",
+      "author" => "Moses"
     }#,
   }
     # "Leviticus": {
