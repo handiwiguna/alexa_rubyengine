@@ -5,6 +5,7 @@ require "alexa_rubyengine/read_verses_intent"
 require "alexa_rubyengine/random_verse_intent"
 require "alexa_rubyengine/author_intent"
 require "alexa_rubyengine/topical_intent"
+require "alexa_rubyengine/purpose_intent"
 
 module AlexaRubyengine
 

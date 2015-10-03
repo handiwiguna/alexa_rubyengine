@@ -1,7 +1,7 @@
 require 'date'
 require 'alexa_rubykit'
 
-class AuthorIntent
+class PurposeIntent
 
   attr_reader :response
 
