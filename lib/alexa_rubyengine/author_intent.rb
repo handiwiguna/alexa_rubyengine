@@ -6,107 +6,107 @@ class AuthorIntent
   attr_reader :response
 
   BIBLE = {
-    "GENESIS": {
+    "Genesis": {
         "testament": "OLD",
         "purpose": "Describes the creation; gives the history of the old world, and of the steps taken by God toward the formation of theocracy.",
         "author": "Moses"
     },
-    "EXODUS": {
+    "Exodus": {
         "testament": "OLD",
         "purpose": "The history of Israel's departure from Egypt; the giving of the law; the tabernacle.",
         "author": "Moses"
     },
-    "LEVITICUS": {
+    "Leviticus": {
         "testament": "OLD",
         "purpose": "The ceremonial law.",
         "author": "Moses"
     },
-    "NUMBERS": {
+    "Numbers": {
         "testament": "OLD",
         "purpose": "The census of the people; the story of the wanderings in the wilderness.",
         "author": "Moses"
     },
-    "DEUTERONOMY": {
+    "Deuteronomy": {
         "testament": "OLD",
         "purpose": "The law rehearsed; the death of Moses.",
         "author": "Moses"
     },
-    "JOSHUA": {
+    "Joshua": {
         "testament": "OLD",
         "purpose": "The story of the conquest and partition of Canaan.",
         "author": "Joshua"
     },
-    "JUDGES": {
+    "Judges": {
         "testament": "OLD",
         "purpose": "The history of the nation from Joshua to Samson.",
         "author": "Samuel, Nathan and Gad"
     },
-    "RUTH": {
+    "Ruth": {
         "testament": "OLD",
         "purpose": "The story of the ancestors of the royal family of Judah.",
         "author": "Samuel, Nathan and Gad"
     },
-    "1 SAMUEL": {
+    "1 Samuel": {
         "testament": "OLD",
         "purpose": "The story of the nation during the judgeship of Samuel and the reign of Saul.",
         "author": "Samuel, Nathan and Gad"
     },
-    "2 SAMUEL": {
+    "2 Samuel": {
         "testament": "OLD",
         "purpose": "Story of the reign of David.",
         "author": "Samuel, Nathan and Gad"
     },
-    "1 KINGS": {
+    "1 Kings": {
         "testament": "OLD",
         "purpose": "The books of Kings form only one book in the Hebrew MSS. They contain the history of the nation from David's death and Solomon's accession to the destruction of the kingdom of Judah and the desolation of Jerusalem, with a supplemental notice of the liberation of Jehoiachin from his prison at Babylon, twenty-six years later; they comprehend the whole time of the Israelitish monarchy, exclusive of the reigns of Saul and David.",
         "author": "Jeremiah"
     },
-    "2 KINGS": {
+    "2 Kings": {
         "testament": "OLD",
         "purpose": "The books of Kings form only one book in the Hebrew MSS. They contain the history of the nation from David's death and Solomon's accession to the destruction of the kingdom of Judah and the desolation of Jerusalem, with a supplemental notice of the liberation of Jehoiachin from his prison at Babylon, twenty-six years later; they comprehend the whole time of the Israelitish monarchy, exclusive of the reigns of Saul and David.",
         "author": "Jeremiah"
     },
-    "1 CHRONICLES": {
+    "1 Chronicles": {
         "testament": "OLD",
         "purpose": "are so called as being the record made by the appointed historiographers of the kingdoms of Judah and Israel; they are the official histories of those kingdoms.",
         "author": "Ezra"
     },
-    "2 CHRONICLES": {
+    "2 Chronicles": {
         "testament": "OLD",
         "purpose": "are so called as being the record made by the appointed historiographers of the kingdoms of Judah and Israel; they are the official histories of those kingdoms.",
         "author": "Ezra"
     },
-    "EZRA": {
+    "Ezra": {
         "testament": "OLD",
         "purpose": "The story of the return of the Jews from the Babylonish captivity, and of the rebuilding of the temple.",
         "author": "Ezra"
     },
-    "NEHEMIAH": {
+    "Nehemiah": {
         "testament": "OLD",
         "purpose": "A further account of the rebuilding of the temple and city, and of the obstacles encountered and overcome.",
         "author": "Ezra"
     },
-    "ESTHER": {
+    "Esther": {
         "testament": "OLD",
         "purpose": "The story of a Jewess who becomes queen of Persia and saves the Jewish people from destruction.",
         "author": "Mordecai"
     },
-    "JOB": {
+    "Job": {
         "testament": "OLD",
         "purpose": "The story of the trials and patience of a holy man of Edom.",
         "author": "The Book of Job does not specifically name its author. The most likely candidates are Job, Elihu, Moses and Solomon."
     },
-    "PSALMS": {
+    "Psalms": {
         "testament": "OLD",
         "purpose": "A collection of sacred poems intended for use in the worship of Jehovah. Chiefly the productions of David.",
         "author": "several different authors, approximately half by David around 1000 B.C. the earliest psalm is from Moses around 1400 B.C. and the latest around 400 B.C."
     },
-    "PROVERBS": {
+    "Proverbs": {
         "testament": "OLD",
         "purpose": "The wise sayings of Solomon.",
         "author": "Solomon"
     },
-    "ECCLESIASTES": {
+    "Ecclesiastes": {
         "testament": "OLD",
         "purpose": "A poem respecting the vanity of earthly things.",
         "author": "Solomon"
@@ -116,87 +116,87 @@ class AuthorIntent
         "purpose": "An allegory relating to the church.",
         "author": "Solomon"
     },
-    "ISAIAH": {
+    "Isaiah": {
         "testament": "OLD",
         "purpose": "Prophecies respecting Christ and his kingdom.",
         "author": "Isaiah"
     },
-    "JEREMIAH": {
+    "Jeremiah": {
         "testament": "OLD",
         "purpose": "Prophecies announcing the captivity of Judah, its sufferings, and the final overthrow of its enemies.",
         "author": "Jeremiah"
     },
-    "LAMENTATIONS": {
+    "Lamentations": {
         "testament": "OLD",
         "purpose": "The utterance of Jeremiah's sorrow upon the capture of Jerusalem and the destruction of the temple.",
         "author": "Jeremiah"
     },
-    "EZEKIEL": {
+    "Ezekiel": {
         "testament": "OLD",
         "purpose": "Messages of warning and comfort to the Jews in their captivity.",
         "author": "Ezekiel"
     },
-    "DANIEL": {
+    "Daniel": {
         "testament": "OLD",
         "purpose": "A narrative of some of the occurrences of the captivity, and a series of prophecies concerning Christ.",
         "author": "Daniel - 550 B.C."
     },
-    "HOSEA": {
+    "Hosea": {
         "testament": "OLD",
         "purpose": "Prophecies relating to Christ and the latter days.",
         "author": "Hosea"
     },
-    "JOEL": {
+    "Joel": {
         "testament": "OLD",
         "purpose": "Prediction of woes upon Judah, and of the favor with which God will receive the penitent people.",
         "author": "Joel"
     },
-    "AMOS": {
+    "Amos": {
         "testament": "OLD",
         "purpose": "Prediction that Israel and other neighboring nations will be punished by conquerors from the north, and of the fulfillment of the Messiah's kingdom",
         "author": "Amos"
     },
-    "OBADIAH": {
+    "Obadiah": {
         "testament": "OLD",
         "purpose": "Prediction of the desolation of Edom.",
         "author": "Obadiah"
     },
-    "JONAH": {
+    "Jonah": {
         "testament": "OLD",
         "purpose": "Prophecies relating to Nineveh.",
         "author": "Jonah"
     },
-    "MICAH": {
+    "Micah": {
         "testament": "OLD",
         "purpose": "Predictions relating to the invasions of Shalmaneser and Sennacherib, the Babylonish captivity, the establishment of a theocratic kingdom in Jerusalem, and the birth of the Messiah in Bethlehem.",
         "author": "Micah"
     },
-    "NAHUM": {
+    "Nahum": {
         "testament": "OLD",
         "purpose": "Prediction of the downfall of Assyria.",
         "author": "Nahum"
     },
-    "HABAKKUK": {
+    "Habakkuk": {
         "testament": "OLD",
         "purpose": "A prediction of the doom of the Chaldeans.",
         "author": "Habakkuk"
     },
-    "ZEPHANIAH": {
+    "Zephaniah": {
         "testament": "OLD",
         "purpose": "Prophecies relating to the rebuilding of the temple and the Messiah.",
         "author": "Zephaniah"
     },
-    "HAGGAI": {
+    "Haggai": {
         "testament": "OLD",
         "purpose": "Prophecies concerning the rebuilding of the temple.",
         "author": "Haggai"
     },
-    "ZECHARIAH": {
+    "Zechariah": {
         "testament": "OLD",
         "purpose": "Prophecies relating to the rebuilding of the temple and the Messiah.",
         "author": "Zechariah"
     },
-    "MALACHI": {
+    "Malachi": {
         "testament": "OLD",
         "purpose": "Prophecies relating to the calling of the Gentiles and the coming of Christ.",
         "author": "Malachi"
@@ -286,17 +286,17 @@ class AuthorIntent
         "purpose": "Epistle to Titus. St. Paul encourages Titus in the performance of his ministerial duties.",
         "author": "Paul"
     },
-    "PHILEMON": {
+    "Philemon": {
         "testament": "NEW",
         "purpose": "An appeal to a converted master to receive a converted escaped slave with kindness.",
         "author": "Paul"
     },
-    "HEBREWS": {
+    "Hebrews": {
         "testament": "NEW",
         "purpose": "St. Paul maintains that Christ is the substance of the ceremonial law.",
         "author": "author unknown"
     },
-    "JAMES": {
+    "James": {
         "testament": "NEW",
         "purpose": "A treatise on the efficacy of faith united with good works.",
         "author": "James"
