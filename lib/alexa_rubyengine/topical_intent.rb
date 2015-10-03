@@ -29,14 +29,14 @@ class TopicalIntent
       { "James2:19" => "James 2 verse 19" },
       { "Mark11:22-24" => "Mark 11 verse 22 to 24" },
     ],
-    "hope": [
+    "hope" => [
       { "Jeremiah29:11" => "Jeremiah 29 verse 11" },
       { "John14:14" => "John 14 verse 14" },
       { "Philippians4:6-7" => "Philippians 4 verse 6 to 7" },
       { "2Timothy1:7" => "2 Timothy 1 verse 7" },
       { "Acts17:11" => "Acts 17 verse 11" },
     ],
-    "love": [
+    "love" => [
       { "1John4:7" => "1 John 4 verse 7" },
       { "1Corinthians10:13" => "1 Corinthians 10 verse 13" },
       { "John14:27" => "John 14 verse 27" },
