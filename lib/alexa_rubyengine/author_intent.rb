@@ -344,6 +344,8 @@ class AuthorIntent
 
   def call(request)
     @book = request.slots['book']['value']
+    puts "=====book"
+    puts @book
     @response.add_speech("The book of %s was written by %s" % [@book, BIBLE[@book]['author']])
     @response
   end
