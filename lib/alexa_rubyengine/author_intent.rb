@@ -46,32 +46,32 @@ class AuthorIntent
       "purpose" => "the story of the ancestors of the royal family of judah.",
       "author" => "samuel, nathan and gad"
     },
-    "1 samuel" => {
+    "1st samuel" => {
       "testament" => "old",
       "purpose" => "the story of the nation during the judgeship of samuel and the reign of saul.",
       "author" => "samuel, nathan and gad"
     },
-    "2 samuel" => {
+    "2nd samuel" => {
       "testament" => "old",
       "purpose" => "story of the reign of david.",
       "author" => "samuel, nathan and gad"
     },
-    "1 kings" => {
+    "1st kings" => {
       "testament" => "old",
       "purpose" => "the books of kings form only one book in the hebrew mss. they contain the history of the nation from david's death and solomon's accession to the destruction of the kingdom of judah and the desolation of jerusalem, with a supplemental notice of the liberation of jehoiachin from his prison at babylon, twenty-six years later; they comprehend the whole time of the israelitish monarchy, exclusive of the reigns of saul and david.",
       "author" => "jeremiah"
     },
-    "2 kings" => {
+    "2nd kings" => {
       "testament" => "old",
       "purpose" => "the books of kings form only one book in the hebrew mss. they contain the history of the nation from david's death and solomon's accession to the destruction of the kingdom of judah and the desolation of jerusalem, with a supplemental notice of the liberation of jehoiachin from his prison at babylon, twenty-six years later; they comprehend the whole time of the israelitish monarchy, exclusive of the reigns of saul and david.",
       "author" => "jeremiah"
     },
-    "1 chronicles" => {
+    "1st chronicles" => {
       "testament" => "old",
       "purpose" => "are so called as being the record made by the appointed historiographers of the kingdoms of judah and israel; they are the official histories of those kingdoms.",
       "author" => "ezra"
     },
-    "2 chronicles" => {
+    "2nd chronicles" => {
       "testament" => "old",
       "purpose" => "are so called as being the record made by the appointed historiographers of the kingdoms of judah and israel; they are the official histories of those kingdoms.",
       "author" => "ezra"
@@ -231,12 +231,12 @@ class AuthorIntent
       "purpose" => "a treatise by st. paul on the doctrine of justification by christ.",
       "author" => "paul"
     },
-    "1 corinthians" => {
+    "1st corinthians" => {
       "testament" => "new",
       "purpose" => "a letter from st. paul to the corinthians, correcting errors into which they had fallen.",
       "author" => "paul"
     },
-    "2 corinthians" => {
+    "2nd corinthians" => {
       "testament" => "new",
       "purpose" => "st. paul confirms his disciples in their faith, and vindicates his own character.",
       "author" => "paul"
@@ -261,22 +261,22 @@ class AuthorIntent
       "purpose" => "st. paul warns his disciples against errors, and exhorts to certain duties.",
       "author" => "paul"
     },
-    "1 thessalonians" => {
+    "1st thessalonians" => {
       "testament" => "new",
       "purpose" => "st. paul exhorts his disciples to continue in the faith and in holy conversation.",
       "author" => "paul"
     },
-    "2 thessalonians" => {
+    "2nd thessalonians" => {
       "testament" => "new",
       "purpose" => "st. paul corrects an error concerning the speedy coming of christ the second time.",
       "author" => "paul"
     },
-    "1 timothy" => {
+    "1st timothy" => {
       "testament" => "new",
       "purpose" => "st. paul instructs timothy in the duty of a pastor, and encourages him in the work of the ministry.",
       "author" => "paul"
     },
-    "2 timothy" => {
+    "2nd timothy" => {
       "testament" => "new",
       "purpose" => "st. paul instructs timothy in the duty of a pastor, and encourages him in the work of the ministry.",
       "author" => "paul"
@@ -301,27 +301,27 @@ class AuthorIntent
       "purpose" => "a treatise on the efficacy of faith united with good works.",
       "author" => "james"
     },
-    "1 peter" => {
+    "1st peter" => {
       "testament" => "new",
       "purpose" => "exhortations to a christian life, with various warnings and predictions.",
       "author" => "peter"
     },
-    "2 peter" => {
+    "2nd peter" => {
       "testament" => "new",
       "purpose" => "exhortations to a christian life, with various warnings and predictions.",
       "author" => "peter"
     },
-    "1 john" => {
+    "1st john" => {
       "testament" => "new",
       "purpose" => "respecting the person of our lord, and an exhortation to christian love and conduct.",
       "author" => "john"
     },
-    "2 john" => {
+    "2nd john" => {
       "testament" => "new",
       "purpose" => "st. john warns a converted lady against false teachers.",
       "author" => "john"
     },
-    "3 john" => {
+    "3rd john" => {
       "testament" => "new",
       "purpose" => "a letter to gaius, praising him for his hospitality.",
       "author" => "john"
@@ -344,8 +344,6 @@ class AuthorIntent
 
   def call(request)
     @book = request.slots['book']['value'].downcase
-    puts "=====book"
-    puts @book
     @response.add_speech("The book of %s was written by %s" % [@book, BIBLE[@book]['author']])
     @response
   end
