@@ -7,6 +7,20 @@ class TopicalIntent
 
   ENDPOINT = "http://api.biblia.com/v1/bible/content/asv.txt.txt"
 
+  # TOPICS = {
+  #   "faith" => [
+  #     { "Romans10:17" => "Romans 10 verse 17" },
+  #     { "Matthew21:22" => "Matthew 21 verse 22" },
+  #     { "Hebrews11:6" => "Hebrews 11 verse 6" },
+  #     { "James2:19" => "James 2 verse 19" },
+  #     { "Mark11:22-24" => "Mark 11 verse 22 to 24" },
+  #     { "Ephesians2:8-9" => "Ephesians 2 verse 8 to 9" },
+  #     { "Luke1:37" => "Luke 1 verse 37" },
+  #     { "Hebrews11:1" => "Hebrews 11 verse 1" },
+  #     { "Ephesians2:8" => "Ephesians 2 verse 8" }
+  #   ]
+  # }
+
   TOPICS = {
     "faith" => [
       { "Romans10:17" => "Romans 10 verse 17" },
@@ -14,12 +28,23 @@ class TopicalIntent
       { "Hebrews11:6" => "Hebrews 11 verse 6" },
       { "James2:19" => "James 2 verse 19" },
       { "Mark11:22-24" => "Mark 11 verse 22 to 24" },
-      { "Ephesians2:8-9" => "Ephesians 2 verse 8 to 9" },
-      { "Luke1:37" => "Luke 1 verse 37" },
-      { "Hebrews11:1" => "Hebrews 11 verse 1" },
-      { "Ephesians2:8" => "Ephesians 2 verse 8" }
+    ],
+    "hope": [
+      { "Jeremiah29:11" => "Jeremiah 29 verse 11" },
+      { "John14:14" => "John 14 verse 14" },
+      { "Philippians4:6-7" => "Philippians 4 verse 6 to 7" },
+      { "2Timothy1:7" => "2 Timothy 1 verse 7" },
+      { "Acts17:11" => "Acts 17 verse 11" },
+    ],
+    "love": [
+      { "1John4:7" => "1 John 4 verse 7" },
+      { "1Corinthians10:13" => "1 Corinthians 10 verse 13" },
+      { "John14:27" => "John 14 verse 27" },
+      { "Genesis2:24" => "Genesisi 2 verse 24" },
+      { "Colossians3:5" => "Colossians 3 verse 5" },
     ]
   }
+
   #
   #
   # TOPICS = {
