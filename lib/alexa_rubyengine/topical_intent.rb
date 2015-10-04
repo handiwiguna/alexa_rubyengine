@@ -44,6 +44,7 @@ class TopicalIntent
     verse = hash[key]
 
     passage = RestClient.get ENDPOINT, {:params => {:passage => key , 'key' => 'fd37d8f28e95d3be8cb4fbc37e15e18e'}}
+    passage = passage.encode('ASCII', invalid: :replace, replace: "")
     @response.add_speech("%s. %s" % [verse, passage])
     @response
   end

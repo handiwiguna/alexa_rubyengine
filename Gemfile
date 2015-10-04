@@ -4,6 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 # Production Gem
-# gem "alexa_rubykit", :git => 'https://github.com/damianFC/alexa-rubykit.git'
-gem "alexa_rubykit", :git => 'https://github.com/handiwiguna/alexa-rubykit.git'
+gem "alexa_rubykit", :git => 'https://github.com/damianFC/alexa-rubykit.git'
 gem "rest-client"
