@@ -17,7 +17,11 @@ class ReadVersesIntent
     start = request.slots["start"]["value"]
     endd = request.slots["end"]["value"]
 
-    mix = "%s%s:%s-%s" % [book, chapter, start, endd]
+    if start && endd
+      mix = "%s%s:%s-%s" % [book, chapter, start, endd]
+    else
+      mix = "%s%s" % [book, chapter]
+    end
 
     passage = RestClient.get ENDPOINT, {:params => {:passage => mix , 'key' => 'fd37d8f28e95d3be8cb4fbc37e15e18e'}}
     @response.add_speech(passage)
