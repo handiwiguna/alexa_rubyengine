@@ -21,6 +21,7 @@ class ReadSingleVerseIntent
     mix = "%s%s:%s" % [book, chapter, verse]
 
     passage = RestClient.get ENDPOINT, {:params => {:passage => mix , 'key' => 'fd37d8f28e95d3be8cb4fbc37e15e18e'}}
+    passage = passage.encode('ASCII', invalid: :replace, replace: "")
     @response.add_speech(passage)
     @response
   end
