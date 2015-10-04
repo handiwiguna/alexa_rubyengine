@@ -1,4 +1,4 @@
-# encoding: UTF-8
+#encoding: UTF-8
 
 require "alexa_rubyengine/version"
 require "alexa_rubyengine/verse_of_the_day_intent"
